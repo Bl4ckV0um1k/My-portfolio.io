@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VOUMIK DEV SHARMA | CYBER DON'S — Cybersecurity & AI Automation</title>
+<meta name="description" content="VOUMIK DEV SHARMA — Cybersecurity Researcher, AI Automation Expert & Gen-Z Tech Creator from Bangladesh. Building futuristic security systems and AI-powered solutions.">
+<meta name="keywords" content="cybersecurity, AI automation, bug bounty, ethical hacking, Bangladesh, OSINT, N8N, digital branding">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="dns-prefetch" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- LOADER -->
+<div id="loader">
+  <div class="loader-logo">VOUMIK</div>
+  <div class="loader-bar-wrap"><div class="loader-bar"></div></div>
+  <div class="loader-text">INITIALIZING SYSTEM...</div>
+</div>
+
+<!-- CURSOR -->
+<div id="cursor-dot"></div>
+<div id="cursor-ring"></div>
+
+<!-- CANVASES -->
+<canvas id="matrix-canvas"></canvas>
+<canvas id="particle-canvas"></canvas>
+<div class="cyber-grid"></div>
+<div class="noise"></div>
+
+<!-- NAV -->
+<nav>
+  <a class="nav-logo" href="#hero">VOUMIK<span>/</span>CYBER DON'S</a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="hamburger" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#about" onclick="toggleMenu()">About</a>
+  <a href="#skills" onclick="toggleMenu()">Skills</a>
+  <a href="#services" onclick="toggleMenu()">Services</a>
+  <a href="#contact" onclick="toggleMenu()">Contact</a>
+</div>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-badge">
+    <div class="hero-badge-dot"></div>
+    <span>Founder of CYBER DON'S &nbsp;|&nbsp; Available for Collaboration</span>
+  </div>
+  <div class="hero-name">
+    <span class="line1">VOUMIK DEV</span>
+    <span class="line2">SHARMA</span>
+  </div>
+  <div class="typing-wrapper">
+    <span id="typed-text"></span><span class="typing-cursor">&nbsp;</span>
+  </div>
+  <p class="hero-sub">Building futuristic security systems and AI-powered solutions from Bangladesh to the world.</p>
+  <div class="hero-buttons">
+    <a href="#skills" class="btn-primary">View Projects</a>
+    <a href="#contact" class="btn-secondary">Contact Me</a>
+  </div>
+  <div class="hero-stats">
+    <div class="stat">
+      <div class="stat-num" data-count="50">0</div>
+      <div class="stat-label">Bugs Found</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num" data-count="30">0</div>
+      <div class="stat-label">AI Workflows</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num" data-count="5">0</div>
+      <div class="stat-label">Years Active</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num" data-count="12">0</div>
+      <div class="stat-label">Certifications</div>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <div class="scroll-line"></div>
+    <span>Scroll</span>
+  </div>
+  <div class="glitch-deco">CYBERSECURITY // AI // INNOVATION // BD</div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="about-grid reveal">
+    <div>
+      <div class="profile-card" style="animation:float 6s ease-in-out infinite;">
+        <div class="profile-avatar">R</div>
+        <div class="profile-name">VOUMIK DEV SHARMA</div>
+        <div class="profile-title">Founder of CYBER DON'S • Cybersecurity Researcher</div>
+        <div class="profile-tags">
+          <span class="tag">Ethical Hacker</span>
+          <span class="tag">Bug Bounty</span>
+          <span class="tag">AI Expert</span>
+          <span class="tag">Gen-Z Creator</span>
+          <span class="tag">OSINT</span>
+          <span class="tag">Termux Pro</span>
+        </div>
+        <div class="profile-location">📍 Dhaka, <span>Bangladesh</span></div>
+      </div>
+    </div>
+    <div>
+      <div class="section-label">// WHO I AM</div>
+      <h2 class="section-title">The Mind Behind<br>The Machine</h2>
+      <div class="section-divider"></div>
+      <p class="about-bio">
+        I'm <strong>VOUMIK DEV SHARMA</strong> — a Gen-Z cybersecurity researcher, AI automation architect, and digital creator from Bangladesh. I operate at the intersection of <strong>ethical hacking</strong>, <strong>AI-powered workflow automation</strong>, and <strong>digital brand building</strong>.
+        <br><br>
+        With deep expertise in <strong>bug bounty hunting</strong>, penetration testing, and OSINT intelligence, I uncover vulnerabilities before the bad actors do. On the AI side, I design sophisticated <strong>N8N automation workflows</strong> and integrate cutting-edge AI tools to supercharge businesses.
+        <br><br>
+        As a <strong>social media specialist</strong> and tech creator, I bridge the gap between hardcore cybersecurity and accessible digital content — inspiring the next generation of Bangladeshi tech warriors.
+      </p>
+      <div class="about-highlights">
+        <div class="highlight">
+          <div class="highlight-icon">🛡️</div>
+          <div class="highlight-title">Ethical Hacking</div>
+          <div class="highlight-desc">Certified penetration tester with real-world CVE experience</div>
+        </div>
+        <div class="highlight">
+          <div class="highlight-icon">🤖</div>
+          <div class="highlight-title">AI Automation</div>
+          <div class="highlight-desc">N8N workflows & AI integrations that save hundreds of hours</div>
+        </div>
+        <div class="highlight">
+          <div class="highlight-icon">🔍</div>
+          <div class="highlight-title">Bug Bounty</div>
+          <div class="highlight-desc">Active hunter across HackerOne, Bugcrowd & private programs</div>
+        </div>
+        <div class="highlight">
+          <div class="highlight-icon">📱</div>
+          <div class="highlight-title">Digital Branding</div>
+          <div class="highlight-desc">Social media strategy & content creation for tech audiences</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="section-label reveal">// SKILL MATRIX</div>
+  <h2 class="section-title reveal">Technical Arsenal</h2>
+  <div class="section-divider reveal"></div>
+  <div class="skills-grid">
+    <div class="skill-card reveal">
+      <span class="skill-icon">🛡️</span>
+      <div class="skill-name">Cybersecurity</div>
+      <div class="skill-desc">Network security, penetration testing, vulnerability assessment & CTF challenges.</div>
+      <div class="skill-bar-wrap"><div class="skill-bar" data-width="92"></div></div>
+    </div>
+    <div class="skill-card reveal">
+      <span class="skill-icon">🎯</span>
+      <div class="skill-name">Bug Bounty Hunting</div>
+      <div class="skill-desc">XSS, SQLi, IDOR, SSRF & advanced web vulnerability research across major platforms.</div>
+      <div class="skill-bar-wrap"><div class="skill-bar" data-width="88"></div></div>
+    </div>
+    <div class="skill-card reveal">
+      <span class="skill-icon">🤖</span>
+      <div class="skill-name">AI Automation</div>
+      <div class="skill-desc">GPT integrations, intelligent agents, automated pipelines & AI-powered tools.</div>
+      <div class="skill-bar-wrap"><div class="skill-bar" data-width="90"></div></div>
+    </div>
+    <div class="skill-card reveal">
+      <span class="skill-icon">⚙️</span>
+      <div class="skill-name">N8N Workflows</div>
+      <div class="skill-desc">Complex automation flows, webhook systems & multi-app orchestration at scale.</div>
+      <div class="skill-bar-wrap"><div class="skill-bar" data-width="85"></div></div>
+    </div>
+    <div class="skill-card reveal">
+      <span class="skill-icon">🔭</span>
+      <div class="skill-name">OSINT</div>
+      <div class="skill-desc">Open-source intelligence gathering, digital footprint mapping & social engineering defense.</div>
+      <div class="skill-bar-wrap"><div class="skill-bar" data-width="87"></div></div>
+    </div>
+    <div class="skill-card reveal">
+      <span class="skill-icon">🐧</span>
+      <div class="skill-name">Linux & Termux</div>
+      <div class="skill-desc">Advanced Linux administration, bash scripting & mobile hacking via Termux.</div>
+      <div class="skill-bar-wrap"><div class="skill-bar" data-width="93"></div></div>
+    </div>
+    <div class="skill-card reveal">
+      <span class="skill-icon">🌐</span>
+      <div class="skill-name">Web Security</div>
+      <div class="skill-desc">OWASP Top 10 mastery, API security testing, CSRF, JWT bypass & more.</div>
+      <div class="skill-bar-wrap"><div class="skill-bar" data-width="89"></div></div>
+    </div>
+    <div class="skill-card reveal">
+      <span class="skill-icon">🎨</span>
+      <div class="skill-name">Branding & Design</div>
+      <div class="skill-desc">Cyberpunk digital branding, UI/UX for tech products & visual identity systems.</div>
+      <div class="skill-bar-wrap"><div class="skill-bar" data-width="80"></div></div>
+    </div>
+    <div class="skill-card reveal">
+      <span class="skill-icon">📣</span>
+      <div class="skill-name">Social Media Expert</div>
+      <div class="skill-desc">Content strategy, growth hacking & building tech communities across platforms.</div>
+      <div class="skill-bar-wrap"><div class="skill-bar" data-width="82"></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="section-label reveal">// WHAT I DO</div>
+  <h2 class="section-title reveal">Services & Solutions</h2>
+  <div class="section-divider reveal"></div>
+  <div class="services-grid">
+    <div class="service-card reveal">
+      <div class="service-num">01</div>
+      <div class="service-title">Security Assessment</div>
+      <div class="service-desc">Full-scope penetration testing, web app security audits, API security reviews, and vulnerability disclosure reports for startups and enterprises.</div>
+      <div class="service-tags">
+        <span class="service-tag">Pentest</span>
+        <span class="service-tag">VAPT</span>
+        <span class="service-tag">Report Writing</span>
+      </div>
+    </div>
+    <div class="service-card reveal">
+      <div class="service-num">02</div>
+      <div class="service-title">AI Workflow Automation</div>
+      <div class="service-desc">Build end-to-end automation systems using N8N, make.com, and AI APIs. Transform manual processes into intelligent, self-running pipelines.</div>
+      <div class="service-tags">
+        <span class="service-tag">N8N</span>
+        <span class="service-tag">OpenAI</span>
+        <span class="service-tag">Zapier</span>
+      </div>
+    </div>
+    <div class="service-card reveal">
+      <div class="service-num">03</div>
+      <div class="service-title">OSINT Investigation</div>
+      <div class="service-desc">Digital footprint analysis, threat intelligence gathering, social engineering defense, and background verification using open-source intelligence tools.</div>
+      <div class="service-tags">
+        <span class="service-tag">Maltego</span>
+        <span class="service-tag">Shodan</span>
+        <span class="service-tag">Recon-ng</span>
+      </div>
+    </div>
+    <div class="service-card reveal">
+      <div class="service-num">04</div>
+      <div class="service-title">Digital Brand Building</div>
+      <div class="service-desc">Social media strategy, cyberpunk-themed visual branding, content creation, and community growth for tech creators and security professionals.</div>
+      <div class="service-tags">
+        <span class="service-tag">Strategy</span>
+        <span class="service-tag">Content</span>
+        <span class="service-tag">Growth</span>
+      </div>
+    </div>
+    <div class="service-card reveal">
+      <div class="service-num">05</div>
+      <div class="service-title">Security Consulting</div>
+      <div class="service-desc">Security awareness training, cyber hygiene consulting, threat modeling, and incident response guidance for teams and organizations.</div>
+      <div class="service-tags">
+        <span class="service-tag">Training</span>
+        <span class="service-tag">Advisory</span>
+        <span class="service-tag">IR</span>
+      </div>
+    </div>
+    <div class="service-card reveal">
+      <div class="service-num">06</div>
+      <div class="service-title">Bug Bounty Mentorship</div>
+      <div class="service-desc">Personalized mentorship for aspiring bug bounty hunters. Learn recon, web hacking methodology, and how to write reports that get paid.</div>
+      <div class="service-tags">
+        <span class="service-tag">Mentorship</span>
+        <span class="service-tag">HackerOne</span>
+        <span class="service-tag">Bugcrowd</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="section-label reveal">// GET IN TOUCH</div>
+  <h2 class="section-title reveal">Let's Build Together</h2>
+  <div class="section-divider reveal"></div>
+  <div class="contact-grid reveal">
+    <div class="contact-info">
+      <p style="color:var(--text-dim);margin-bottom:2rem;line-height:1.8;">Have a security challenge, AI automation project, or just want to connect? I'm always open to interesting collaborations and opportunities.</p>
+      <a class="contact-item" href="mailto:voumiksharma@gmail.com">
+        <div class="contact-item-icon">✉️</div>
+        <div>
+          <div class="contact-item-label">Email</div>
+          <div class="contact-item-value">voumiksharma@gmail.com</div>
+        </div>
+      </a>
+      <a class="contact-item" href="https://t.me/Bl4ck_LEO" target="_blank">
+        <div class="contact-item-icon">✈️</div>
+        <div>
+          <div class="contact-item-label">Telegram</div>
+          <div class="contact-item-value">t.me/Bl4ck_LEO</div>
+        </div>
+      </a>
+      <a class="contact-item" href="https://www.linkedin.com/in/voumik-dev-sharma-8b041b401" target="_blank">
+        <div class="contact-item-icon">💼</div>
+        <div>
+          <div class="contact-item-label">LinkedIn</div>
+          <div class="contact-item-value">voumik-dev-sharma</div>
+        </div>
+      </a>
+      <div style="margin-top:2rem;padding:1.5rem;background:var(--glass2);border:1px solid var(--border2);border-radius:12px;">
+        <div style="font-family:'Orbitron',monospace;font-size:0.6rem;color:var(--purple);letter-spacing:0.2em;margin-bottom:0.5rem;">// STATUS</div>
+        <div style="display:flex;align-items:center;gap:0.7rem;">
+          <div style="width:8px;height:8px;border-radius:50%;background:#00ff88;animation:pulse 2s infinite;box-shadow:0 0 10px #00ff88;"></div>
+          <span style="font-size:0.85rem;">Available for new projects</span>
+        </div>
+      </div>
+    </div>
+    <div class="contact-form">
+      <div class="form-group">
+        <label>Your Name</label>
+        <input type="text" id="f-name" placeholder="John Doe">
+      </div>
+      <div class="form-group">
+        <label>Email Address</label>
+        <input type="email" id="f-email" placeholder="john@example.com">
+      </div>
+      <div class="form-group">
+        <label>Subject</label>
+        <input type="text" id="f-subject" placeholder="Security audit / AI project / Collaboration">
+      </div>
+      <div class="form-group">
+        <label>Message</label>
+        <textarea id="f-msg" placeholder="Tell me about your project..."></textarea>
+      </div>
+      <button class="form-submit" onclick="submitForm()">SEND MESSAGE →</button>
+      <div class="form-msg" id="formMsg">✓ Message sent! I'll respond within 24 hours.</div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">VOUMIK<span>/</span>CYBER DON'S</div>
+  <div class="footer-tagline">Founder of CYBER DON'S • Cybersecurity • AI Automation • Bangladesh 🇧🇩</div>
+  <div class="footer-socials">
+    <a class="social-btn" href="mailto:voumiksharma@gmail.com" title="Email">✉</a>
+    <a class="social-btn" href="https://t.me/Bl4ck_LEO" target="_blank" title="Telegram">✈</a>
+    <a class="social-btn" href="https://www.linkedin.com/in/voumik-dev-sharma-8b041b401" target="_blank" title="LinkedIn">in</a>
+    <a class="social-btn" href="#" title="GitHub">⌨</a>
+    <a class="social-btn" href="#" title="Twitter">𝕏</a>
+  </div>
+  <div class="footer-copy">© 2026 VOUMIK DEV SHARMA | CYBER DON'S — Made with <span>♥</span> in Bangladesh<br>All rights reserved. Built for the future.</div>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
